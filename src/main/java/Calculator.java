@@ -15,9 +15,10 @@ public class Calculator {
         Scanner scanner = new Scanner(System.in);
         double number1, number2;
         do {
-            System.out.println("Calculator-DevOps, Choose to perform operation");
-            System.out.print("Press 1 to find factorial\nPress 2 to find Square root\nPress 3 to find power\nPress 4 to find natural logarithm\n" +
-                    "Press 5 to exit\nEnter your choice: ");
+            System.out.println("Scientific Calculator : ");
+            System.out.println("Choose one Operation :- ");
+            System.out.print(" 1. -> Factorial\n 2. -> Square root\n 3 -> Power\n 5. -> Natural Logarithm\n" +
+                    " 5 -> exit\n 3Enter your choice: ");
             int choice;
             try {
                 choice = scanner.nextInt();
