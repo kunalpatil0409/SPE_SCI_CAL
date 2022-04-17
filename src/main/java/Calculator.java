@@ -17,7 +17,7 @@ public class Calculator {
         do {
             System.out.println("Scientific Calculator : ");
             System.out.println("Choose one Operation :- ");
-            System.out.print(" 1. -> Factorial\n 2. -> Square root\n 3 -> Power\n 5. -> Natural Logarithm\n" +
+            System.out.print(" 1. -> Factorial\n 2. -> Square root\n 3 -> Power\n 4. -> Natural Logarithm\n" +
                     " 5 -> exit\n 3Enter your choice: ");
             int choice;
             try {
