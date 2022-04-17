@@ -21,7 +21,7 @@ public class Calculator {
             System.out.println("Scientific Calculator : ");
             System.out.println("Choose one Operation :- ");
             System.out.print(" 1. -> Factorial\n 2. -> Square root\n 3 -> Power\n 4. -> Natural Logarithm\n" +
-                    " 5 -> exit\n 3Enter your choice: ");
+                    " 5 -> exit\n Enter your choice: ");
             int choice;
             try {
                 choice = scanner.nextInt();
